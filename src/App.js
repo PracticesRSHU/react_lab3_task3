@@ -1,11 +1,12 @@
 import './App.css';
 import CardShrol from './components/CardShrol';
+import CardLahoiko from './components/CardLahoiko';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <div className='block1'>        <a className='App-link' href='http://college.mlyniv.rv.ua/'>
+        <div className='block1'>        <a className='App-link' href='https://www.rshu.edu.ua/'>
           РДГУ
         </a>
         </div>
@@ -19,6 +20,9 @@ function App() {
         <hr/>
         <h2>Список студентів</h2>
         {/* карти студентів */}
+        <hr/>
+        <CardLahoiko/>
+        <hr/>
 
 
       </main>
