@@ -1,6 +1,8 @@
 import './App.css';
 import CardShrol from './components/CardShrol';
 import CardLahoiko from './components/CardLahoiko';
+import CardAlkonova from './components/CardAlkonova';
+
 
 function App() {
   return (
@@ -23,6 +25,8 @@ function App() {
         <hr/>
         <CardLahoiko/>
         <hr/>
+        <CardAlkonova />
+        <hr />
 
 
       </main>
